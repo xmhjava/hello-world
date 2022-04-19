@@ -7,6 +7,6 @@ public static void main(String[] args) {
 	//代理对应
 	InvocationHandler proxy = new proxyInvocationHandler(daoImpl);
 	Proxy.newProxyInstance(daoImpl.getClass(),proxy);
-	//测试结构111
+	//测试结构111000000000000
 }
 }
